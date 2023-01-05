@@ -16,11 +16,12 @@
     font-size: 40px;
     background-color: gray;   
 }
-.header .headerpara{
+.headerpara{
     text-align: center;
     font-size: 20px;
     width: 800px;
-    padding-left: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .header .donate-btn{
     text-align: center;
@@ -31,7 +32,7 @@
     border: none;
     border-radius: 5px;
     color: aliceblue;
-    margin-top: 30px;
+    margin: 0 auto;
 }
 div h2{
     text-align: center;
@@ -59,13 +60,24 @@ span{
     padding: 30px 30px 30px 30px;
     border-radius: 5px;
 }
+main .second-para{
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+    margin-bottom: 100px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
 main p{
+    font-size: 20px;
     text-align: center;
     margin-top: 100px;
     color: grey;
 }
 main button{
     text-align: center;
+    margin-top: 20px;
     font-size: 20px;
     width: 160px;
     height: 40px;
@@ -73,6 +85,38 @@ main button{
     border: none;
     border-radius: 5px;
     color: aliceblue;
-    margin-top: 30px;
     margin-left: 595px;
+    margin-bottom: 100px;
+}
+.donate-plan p{
+    color:gray;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.plan{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+}
+.family{
+    width:300px;
+    height:200px;
+}
+.shelter{
+    width: 300px;
+    height: 200px;
+}
+.education{
+    width: 300px;
+    height: 200px;
+    background-color:rgb(248, 220, 182);
+}
+.a{
+    text-align: center;
+    margin-top: 20px;
+}
+.image{
+    margin-left: 150px;
 }
