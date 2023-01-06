@@ -34,7 +34,7 @@
     color: aliceblue;
     margin: 0 auto;
 }
-div h2{
+h2{
     text-align: center;
     margin-top:100px;
     margin-bottom: 30px;
@@ -92,7 +92,7 @@ main button{
     color:gray;
     width: 500px;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .plan{
     display: flex;
@@ -100,23 +100,81 @@ main button{
     justify-content: center;
     gap: 10px;
 }
-.family{
-    width:300px;
-    height:200px;
-}
-.shelter{
+
+.education , .color-p , .shelter , .family{
     width: 300px;
-    height: 200px;
-}
-.education{
-    width: 300px;
-    height: 200px;
+    height: 100px;
     background-color:rgb(248, 220, 182);
-}
-.a{
     text-align: center;
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: center;
+    margin-right: 100px;
+    margin-bottom: 300px;
 }
 .image{
-    margin-left: 150px;
+    margin:0 autos;
+}
+.nd-button{
+    background-color:rgb(204, 82, 82);
+    height: 60px;
+    width: max-content;
+    margin:auto 0;
+}
+.img-para .title{
+    text-align: justify;
+    font-size: 100px;
+}
+.img{
+    width: 
+    700px;
+    height: 500px;  
+    margin-left: 400px;
+}
+.img-para{
+    display: flex;
+}
+.container {
+    display: flex;
+    align-items: center; 
+
+   }
+   
+   .image{
+     width: 500px;
+     height: 100px;
+   }
+   
+   .text {
+     font-size: 20px;
+     margin-top: 500px;
+     text-align: justify;
+     width: 500px;
+    }
+    .abcd{
+        text-align: center;
+    }
+.container-two{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.text2{
+    font-size: 20px;
+    text-align: center;
+    width:500px;
+    color:black; 
+    margin-left:150px;
+}
+.last-para{
+    width: 500px;
+    align-items:center;
+    margin-left: 450px;
+    margin-bottom: 200px;
+}
+.info{
+    margin: 0 auto;
+   margin-left: 550px;
 }
